@@ -1,0 +1,61 @@
+/* Kejaan Bintang */
+/* Untuk Tablet */
+
+@media all and (max-width: 1000px) {
+  .team-list {
+    width: 50%;
+    margin-bottom: 50px;
+  }
+  
+  .container h1 {
+    font-size: 32px;
+  }
+
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .team-list {
+    width: 100%;
+  }
+  
+  .container a {
+    width: 100%;
+  }
+  
+  .container h1 p {
+    text-align: left;
+  }
+  
+  .menu-header h1 {
+    font-size: 20px;
+  }
+  
+  .menu-header ul li  {
+    display: none;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+  
+  .container h1 {
+    font-size: 20px;
+    line-height: 36px;
+  }
+  
+  .container p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .masukan {
+      width: 100%;
+  }
+  .btn-message {
+      width: 100%;
+  }
+  .contact-form input textarea{
+      width: 100%;
+
+  }
+}
