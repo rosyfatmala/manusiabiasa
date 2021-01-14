@@ -1,0 +1,205 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'MuseoModerno', cursive;
+}
+
+.heading {
+	margin: 0;
+	padding: 0;
+}
+
+.menu-header {
+	background-color: #B0C4DE;
+	opacity: 0.7;
+	height: 70px;
+	padding-right:  30px;
+	padding-left: 30px;
+	color: black;
+}
+
+.menu-header h1 {
+	float: left;
+	display: inline-block;
+	margin: 0;
+	padding: 9px 5px;
+}
+
+/* Kerjaan Bintang */
+.menu-icon {
+	color: black;
+	float: right;
+	font-size: 25px;
+	padding: 21px 0;
+	display: none;
+  }
+/* Kerjaan Bintang */
+
+.menu-header ul {
+	margin: auto;
+}
+
+.menu-header ul li {
+	list-style: none;
+	display: inline-block;
+	float: right;
+	padding: 5px 5px;
+	font-size: 22px;
+	margin: 12px 12px;
+}
+
+.menu-header ul li:hover {
+	border-bottom: 1px solid black;
+	cursor: pointer;
+}
+
+.container {
+	color: #000080;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	height: 500px;
+	width: 100%;
+	background:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(gambar1.jpg);
+	background-size: cover;
+    background-attachment: fixed;
+    opacity: 1;
+}
+
+.container h1 {
+	margin: 0;
+}
+
+.container a {
+	height: 30px;
+	width: 150px;
+	background-color: #B0C4DE;
+	display: inline-block;
+	padding-top: 5px;
+	text-decoration: none;
+	border-radius: 10px;
+	box-shadow: 3px 5px 10px;
+}
+
+.container a:hover {
+	color: black;
+}
+
+/* Kerjaan Bayu */
+.container-2 {
+	height: 400px;
+	width: 90%;
+	padding: 40px 0;
+	margin: 0 auto;
+}
+
+.team-1 {
+	text-align: center;
+}
+
+.team-title {
+	border-bottom: 2px solid #dee7ec;
+	font-size: 28px;
+	padding-bottom: 15px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.team-list {
+	padding:20px;
+	align-content: center;
+	float: left;
+	background-color: #f7fbff;
+	margin:10px;
+	width: 150px;
+	width:14%;
+	text-align:center;
+	display:inline-block;
+}
+
+.icon-male {
+	width: 50%;
+}
+
+.name-title{
+	display: block;
+	font-size:18px;
+		font-weight:bold;
+		padding:0;
+		margin:0;
+}
+
+.job-title{
+	font-size:13px;
+	padding:0;
+	margin:0;
+}
+/* Kerjaan Bayu */
+
+/* Kerjaan Noobmaster */
+.container-3 {
+	display: block;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.contact-form .section-title {
+	border-bottom: 2px solid #dee7ec;
+	font-size: 28px;
+	padding-bottom: 15px;
+	margin-bottom: 50px;
+}
+
+span .st-icon {
+	padding-right: 10px;
+}
+
+.contact-form {
+	text-align: center;
+}
+
+.contact-form input, .contact-form textarea {
+	width: 300px;
+	margin: 10px 0 30px;
+	padding: 10px;
+	font-size: 12px;
+	border: 1px solid #dee7ec;
+}
+
+.contact-form .btn {
+	width: 200px;
+	padding: 12px 24px;
+	color: #0041EA;
+	display: inline-block;
+	opacity: 0.8;
+	border-radius: 10px;
+  }
+
+.contact-form .message {
+	width: 150px;
+	font-family: inherit;
+	font-size: 15px;
+	font-weight: bold;
+	padding: 10px;
+	background-color: #B0C4DE;
+	cursor: pointer;
+	box-shadow: 3px 5px 10px #000080;
+}
+
+.contact-form .message:active {
+	position: relative;
+	top: 5px;
+	box-shadow: none;
+  }
+/* Kerjaan Noobmaster */
+
+footer{
+	padding:20px;
+}
+
+.footer {
+	background-color: #B0C4DE;
+  }
+  .footer-list  {
+	float: right;
+	padding: 33px 40px;
